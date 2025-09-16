@@ -99,8 +99,14 @@ h1{font-size:clamp(26px,5.2vw,42px);line-height:1.2;margin:12px 0 8px;letter-spa
       <p class="notice">「体入希望」「質問だけ」でもOK。友だち追加してトークを送ってください。</p>
     
      <div class="line-apply" style="text-align: center; margin-top: 20px;">
-  <img src="line_qr.png" alt="LINE QR" width="200"><br>
-  <a href="https://lin.ee/La1Z33h" class="btn" style="display:inline-block; margin-top: 15px;">
+  <!-- QRコード（角丸＋サイズ調整） -->
+  <img src="line_qr.png" alt="LINE QR" 
+       style="max-width:200px; width:100%; height:auto; display:block; margin:0 auto; border-radius:15px;">
+  
+  <!-- 緑色の応募ボタン -->
+  <a href="https://lin.ee/La1Z33h" 
+     style="display:inline-block; margin-top: 15px; padding:12px 25px; font-size:16px; 
+            background-color:#06C755; color:#fff; text-decoration:none; border-radius:6px; font-weight:bold;">
     LINEで応募する
   </a>
 </div>
